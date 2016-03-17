@@ -12,7 +12,7 @@ package 'CentrifyDC'
 # Retrieves utility files
 
 remote_file '/tmp/krb5.conf' do
-  source 'http://engcen6.centrify.vms/centrify-repo/utils/krb5.conf'
+  source 'http://engcen6.centrify.vms/centrify/utils/krb5.conf'
   owner 'root'
   group 'root'
   mode '0644'
@@ -20,7 +20,7 @@ remote_file '/tmp/krb5.conf' do
 end
 
 remote_file '/tmp/ad-joiner.keytab' do
-  source 'http://engcen6.centrify.vms/centrify-repo/utils/ad-joiner.keytab'
+  source 'http://engcen6.centrify.vms/centrify/utils/ad-joiner.keytab'
   owner 'root'
   group 'root'
   mode '0644'
