@@ -7,3 +7,7 @@ This is a simple recipe that:
 2. Retrieves a krb5.conf and keytab
 3. Joins Active Directory, A Centrify Zone and A Computer Role
 4. Performs Cleanup
+5. 
+
+Requirements
+Requires Chef Development Kit (ChefDK) for RHEL and derivatives
